@@ -33,6 +33,6 @@
 `$ docker start redisbarber`</br>
 
 :keycap_ten: Iniciar</br>
-`$ yarn dev`</br>
-`$ yarn queue`</br>
+`$ yarn dev:server`</br>
+
 
