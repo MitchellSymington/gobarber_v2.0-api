@@ -15,10 +15,10 @@
 `yarn typeorm migration:run`
 
 :six: Clonar projeto</br>
-`$ git clone https://github.com/MitchellSymington/gobarber-api.git`
+`$ git clone https://github.com/MitchellSymington/gobarber_v2.0-api.git`
 
 :seven: Ir para o diretório </br>
-`$ cd gobarber-api`
+`$ cd gobarber_v2.0-api`
 
 :eight: Instalar dependencias</br>
 `$ yarn install`
