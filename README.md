@@ -25,8 +25,8 @@
 
 :nine: Subir bancos com Docker</br>
 `$ docker start database`</br>
-`$ docker start mongobarber`</br>
-`$ docker start redisbarber`</br>
+`$ docker start mongodb`</br>
+`$ docker start redis`</br>
 
 :keycap_ten: Iniciar</br>
 `$ yarn dev:server`</br>
