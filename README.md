@@ -12,10 +12,12 @@
 `docker run --name mongodb -p 27017:27017 -d -t mongo`
 
 :four: Clonar projeto</br>
-`$ git clone https://github.com/MitchellSymington/gobarber_v2.0-api.git`
+`$ docker start database`</br>
+`$ docker start mongodb`</br>
+`$ docker start redis`</br>
 
 :five: Rodando as migrations</br>
-`yarn typeorm migration:run`
+`$ git clone https://github.com/MitchellSymington/gobarber_v2.0-api.git`
 
 :seven: Ir para o diretório </br>
 `$ cd gobarber_v2.0-api`
@@ -24,9 +26,7 @@
 `$ yarn install`
 
 :nine: Subir bancos com Docker</br>
-`$ docker start database`</br>
-`$ docker start mongodb`</br>
-`$ docker start redis`</br>
+`yarn typeorm migration:run`
 
 :keycap_ten: Iniciar</br>
 `$ yarn dev:server`</br>
